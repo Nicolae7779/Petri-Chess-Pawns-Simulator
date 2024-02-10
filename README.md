@@ -10,7 +10,7 @@ Petri Chess Pawns Simulator este un proiect inovator care utilizează rețele Pe
 
 ![Diagrama Rețea Petri Frontend](imagini/frontend.png)
 
-### Obiectivul Simulării
+## Obiectivul Simulării
 
 Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelegere aprofundată a scenariilor potențiale în jocul de șah limitat la mișcările pionilor și de a identifica condițiile care duc la un deadlock. Acest lucru permite explorarea complexității și frumuseții jocului de șah, chiar și într-un cadru restrâns la cele mai fundamentale piese.
 
@@ -19,7 +19,7 @@ Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelege
 Simularea Petri Chess Pawns utilizează o tablă de șah standard formată din 64 de căsuțe, organizate în 8 rânduri și 8 coloane. În acest scenariu, sunt prezente doar 16 piese - 8 pioni albi și 8 pioni negri, fiecare echipă având pionii plasați pe rândul său inițial conform regulilor tradiționale ale șahului.
 
 
-### Acțiunile Pionilor
+## Acțiunile Pionilor
 
 Pionii în această simulare sunt capabili să efectueze următoarele mișcări, conform regulilor standard ale șahului, cu câteva adaptări specifice pentru acest context simplificat:
 
