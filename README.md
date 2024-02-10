@@ -21,9 +21,14 @@ Simularea Petri Chess Pawns utilizează o tablă de șah standard formată din 6
 Pionii în această simulare sunt capabili să efectueze următoarele mișcări, conform regulilor standard ale șahului, cu câteva adaptări specifice pentru acest context simplificat:
 
 - **Înaintarea:** Un pion poate avansa cu o singură poziție înainte pe tablă pentru a ocupa o casă liberă. Excepția este prima mișcare a pionului, când acesta are opțiunea de a avansa două poziții în față.
+
+  ![Diagrama Rețea Petri explicată partea 1](imagini/explicat1.png)
+  
 - **Capturarea:** Pionii au capacitatea de a captura pionii adversi în diagonală. Astfel, un pion alb poate elimina un pion negru din joc prin mișcare în diagonală spre stânga sau dreapta, și invers pentru pionii negri.
 - **Generarea Mișcărilor:** Toate mișcările pionilor în cadrul acestei simulări sunt generate aleator, reflectând diferite scenarii posibile într-un joc de șah limitat la interacțiunile dintre pioni.
 - **Condiția de Terminare a Jocului:** Simularea se încheie atunci când toți pionii unei culori sunt blocati și nu pot efectua nicio mișcare legală - fie înaintare, fie capturare. Aceasta situație reprezintă un deadlock, demonstrând limitările strategice într-un joc exclusiv de pioni.
+
+![Diagrama Rețea Petri explicată partea 2](imagini/explicat2.png)
 
 ### Scopul Simulării
 
@@ -57,10 +62,10 @@ Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelege
 
 
 
-![Diagrama Rețea Petri explicată partea 1](imagini/explicat1.png)
 
 
-![Diagrama Rețea Petri explicată partea 2](imagini/explicat2.png)
+
+
 
 
 ![Diagrama Rețea Petri Backend](imagini/Backend.png)
