@@ -9,4 +9,4 @@
 ![Diagrama Rețea Petri Backend](imagini/Backend.png)
 
 
-![Diagrama Rețea Petri Frontend](imagini/Frontend.png)
+![Diagrama Rețea Petri Frontend](imagini/frontend.png)
