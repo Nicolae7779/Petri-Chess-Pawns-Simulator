@@ -1,3 +1,3 @@
 # PetriChessMover
 
-![Diagrama Rețea Petri explicată](explicat1.png)
+![Diagrama Rețea Petri explicată](imagini/explicat1.png)
