@@ -10,6 +10,9 @@ Petri Chess Pawns Simulator este un proiect inovator care utilizează rețele Pe
 
 ![Diagrama Rețea Petri Frontend](imagini/frontend.png)
 
+### Obiectivul Simulării
+
+Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelegere aprofundată a scenariilor potențiale în jocul de șah limitat la mișcările pionilor și de a identifica condițiile care duc la un deadlock. Acest lucru permite explorarea complexității și frumuseții jocului de șah, chiar și într-un cadru restrâns la cele mai fundamentale piese.
 
 ## Reguli și Mecanica Simulării
 
@@ -42,22 +45,11 @@ Scopul principal al acestei simulări este de a analiza și a înțelege comport
 
 
 
-### Mecanica Simulării
-
-În această simulare, mișcările sunt generate automat pe baza regulilor prestabilite pentru pionii de șah, cu alternanță între pionii albi și cei negri. Simularea începe cu pionii plasați în pozițiile lor standard de început pe tablă:
-
-- Un pion poate avansa în față cu o singură casă sau, în prima sa mișcare, cu două căsuțe.
-- Capturarea se face în diagonală.
-- Simularea se încheie când se ajunge la un deadlock, adică atunci când pionul care ar trebui să mute este blocat complet, fără posibilitatea de a avansa sau de a captura.
-
-Este important de remarcat că această simulare nu este un joc interactiv și nu permite jucătorilor să facă mișcări. În schimb, ea demonstrează posibilitățile și limitările strategice ale pionilor într-un context de joc simplificat, utilizând modelarea prin rețele Petri pentru a analiza logic comportamentul pieselor de șah.
 
 
 
 
-### Obiectivul Simulării
 
-Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelegere aprofundată a scenariilor potențiale în jocul de șah limitat la mișcările pionilor și de a identifica condițiile care duc la un deadlock. Acest lucru permite explorarea complexității și frumuseții jocului de șah, chiar și într-un cadru restrâns la cele mai fundamentale piese.
 
 
 
@@ -85,7 +77,7 @@ Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelege
 
 
 
-
+Este important de remarcat că această simulare nu este un joc interactiv și nu permite jucătorilor să facă mișcări. În schimb, ea demonstrează posibilitățile și limitările strategice ale pionilor într-un context de joc simplificat, utilizând modelarea prin rețele Petri pentru a analiza logic comportamentul pieselor de șah.
 
 
 
