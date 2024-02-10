@@ -4,6 +4,10 @@
 
 Petri Chess Pawns Simulator este un proiect inovator care utilizează rețele Petri pentru a simula un joc de șah cu o simplă condiție: jocul se desfășoară exclusiv cu pioni (8 pioni albi și 8 pioni negri) pe o tablă standard de șah de 8x8. Scopul jocului este de a explora dinamica și strategiile pionilor, jocul terminându-se atunci când se ajunge la un deadlock, adică momentul în care pionul care trebuie să se miște este complet blocat.
 
+![Diagrama Rețea Petri Frontend](imagini/frontend.png)
+
+
+
 ## Cum se Joacă
 
 Jocul alternează mișcările între pionii albi și cei negri, începând cu albul. Un pion poate avansa în față cu o singură casă, cu excepția primei mișcări, când poate avansa două căsuțe. Capturarea se face în diagonală. Jocul se încheie în momentul în care un pion nu mai poate efectua nici o mișcare legală, fie din cauza blocării de către alte piese, fie din lipsa opțiunilor de capturare.
@@ -35,5 +39,3 @@ Pionii pot face următoarele acțiuni
 
 ![Diagrama Rețea Petri Backend](imagini/Backend.png)
 
-
-![Diagrama Rețea Petri Frontend](imagini/frontend.png)
