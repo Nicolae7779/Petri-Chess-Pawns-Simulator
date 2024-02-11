@@ -1,14 +1,23 @@
 # Petri Chess Pawns Simulator
 
+![Diagrama Rețea Petri Frontend](imagini/frontend.png)
+
 ## Descriere
 
 Petri Chess Pawns Simulator este un proiect inovator care utilizează rețele Petri pentru a simula un joc de șah cu o simplă condiție: jocul se desfășoară exclusiv cu pioni (8 pioni albi și 8 pioni negri) pe o tablă standard de șah de 8x8. Scopul jocului este de a explora dinamica și strategiile pionilor, jocul terminându-se atunci când se ajunge la un deadlock, adică momentul în care pionul care trebuie să se miște este complet blocat.
 
-  pionii albi sunt reprezentați prin 2 jetoane (1 jeton în centru și 1 jeton în partea dreaptă)
+#### pionii albi sunt reprezentați prin 2 jetoane (1 jeton în centru și 1 jeton în partea dreaptă)
 
-  pionii negri sunt reprezentați prin 2 jetoane (1 jeton în centru și 1 jeton în partea stângă)
+![Diagrama Rețea Petri Backend](imagini/pionii_albi.png)
 
-![Diagrama Rețea Petri Frontend](imagini/frontend.png)
+#### pionii negri sunt reprezentați prin 2 jetoane (1 jeton în centru și 1 jeton în partea stângă)
+  
+![Diagrama Rețea Petri Backend](imagini/pionii_negri.png)
+
+
+## Scopul Simulării
+
+Scopul principal al acestei simulări este de a analiza și a înțelege comportamentul pionilor în diverse situații de joc, identificând strategiile care maximizează eficacitatea mișcărilor și condițiile care conduc la un deadlock. Prin folosirea rețelelor Petri, simularea oferă o perspectivă unică asupra dinamicii și strategiilor posibile într-un joc de șah simplificat.
 
 ## Obiectivul Simulării
 
@@ -19,7 +28,7 @@ Obiectivul principal al Petri Chess Pawns Simulator este de a oferi o înțelege
 Simularea Petri Chess Pawns utilizează o tablă de șah standard formată din 64 de căsuțe, organizate în 8 rânduri și 8 coloane. În acest scenariu, sunt prezente doar 16 piese - 8 pioni albi și 8 pioni negri, fiecare echipă având pionii plasați pe rândul său inițial conform regulilor tradiționale ale șahului.
 
 
-## Acțiunile Pionilor
+### Acțiunile Pionilor
 
 Pionii în această simulare sunt capabili să efectueze următoarele mișcări, conform regulilor standard ale șahului, cu câteva adaptări specifice pentru acest context simplificat:
 
@@ -33,15 +42,13 @@ Pionii în această simulare sunt capabili să efectueze următoarele mișcări,
 
 ![Diagrama Rețea Petri explicată partea 2](imagini/explicat2.png)
 
-### Scopul Simulării
-
-Scopul principal al acestei simulări este de a analiza și a înțelege comportamentul pionilor în diverse situații de joc, identificând strategiile care maximizează eficacitatea mișcărilor și condițiile care conduc la un deadlock. Prin folosirea rețelelor Petri, simularea oferă o perspectivă unică asupra dinamicii și strategiilor posibile într-un joc de șah simplificat.
 
 
 
 
+## Deadlock
 
-
+![Diagrama Rețea Petri Backend](imagini/deadlock.png)
 
 
 
@@ -64,10 +71,9 @@ Scopul principal al acestei simulări este de a analiza și a înțelege comport
 
 
 
-![Diagrama Rețea Petri Backend](imagini/deadlock.png)
+
 ![Diagrama Rețea Petri Backend](imagini/o_poziție_finală.png)
-![Diagrama Rețea Petri Backend](imagini/pionii_negri.png)
-![Diagrama Rețea Petri Backend](imagini/pionii_albi.png)
+
 ![Diagrama Rețea Petri Backend](imagini/steps.png)
 ![Diagrama Rețea Petri Backend](imagini/steps2.png)
 ![Diagrama Rețea Petri Backend](imagini/steps3.png)
