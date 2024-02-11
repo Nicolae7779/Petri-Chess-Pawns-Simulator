@@ -43,44 +43,30 @@ Pionii în această simulare sunt capabili să efectueze următoarele mișcări,
 ![Diagrama Rețea Petri explicată partea 2](imagini/explicat2.png)
 
 
-
-
-
 ## Deadlock
+Este rândul pionului negru la mutare și toți pionii negri sunt poziționați pe ultima linie a tablei de șah, fără posibilitatea de a avansa sau de a captura pionii albi. În acest scenariu, niciun pion negru nu mai poate efectua o mișcare legală, fiind complet blocați de pionii albi sau de limitele tablei de șah. Acesta este momentul în care simularea identifică un deadlock și se încheie, reflectând o situație în care jocul nu mai poate progresa.
 
 ![Diagrama Rețea Petri Backend](imagini/deadlock.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Diagrama Rețea Petri Backend](imagini/Backend.png)
-
-
-
-
 ![Diagrama Rețea Petri Backend](imagini/o_poziție_finală.png)
 
+
+## Variabilitatea Numărului de Pași până la Deadlock
+
+Fiecare rulare a simulării produce un scenariu unic, subliniind complexitatea interacțiunilor dintre pioni și modul în care acestea pot influența durata jocului.
+
+
+![Diagrama Rețea Petri Backend](imagini/tranziții.png)
 ![Diagrama Rețea Petri Backend](imagini/steps.png)
 ![Diagrama Rețea Petri Backend](imagini/steps2.png)
 ![Diagrama Rețea Petri Backend](imagini/steps3.png)
-![Diagrama Rețea Petri Backend](imagini/tranziții.png)
+
+Aceste imagini demonstrează că, deși regulile de mișcare și condițiile pentru deadlock sunt constante, numărul de pași necesari pentru a ajunge la acest punct final variază în funcție de secvența aleatoare de mișcări generate în fiecare simulare. Această variabilitate reflectă complexitatea inerentă a jocului de șah, chiar și într-un cadru simplificat focusat exclusiv pe pioni.
 
 
+## Arhitectura Backend a Simulării: Stările și Tranzacțiile Rețelei Petri
 
+![Diagrama Rețea Petri Backend](imagini/Backend.png)
 
 
 Este important de remarcat că această simulare nu este un joc interactiv și nu permite jucătorilor să facă mișcări. În schimb, ea demonstrează posibilitățile și limitările strategice ale pionilor într-un context de joc simplificat, utilizând modelarea prin rețele Petri pentru a analiza logic comportamentul pieselor de șah.
